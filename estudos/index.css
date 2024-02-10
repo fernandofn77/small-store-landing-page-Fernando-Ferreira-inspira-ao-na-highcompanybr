@@ -1,0 +1,120 @@
+
+/* Estilo para o cabeçalho */
+.cabecalho {
+    background-color: #fff; /* Cor de fundo para o cabeçalho */
+    
+    color: #fff; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    display: flex; /* Usando flexbox para alinhar os itens */
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.imagem-logo img {
+    width: 100px; /* Defina a largura da imagem do logotipo */
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    list-style-type: none; /* Remova os marcadores da lista */
+    padding: 0; /* Remova o preenchimento padrão da lista */
+}
+
+.home li {
+    display: inline-block; /* Coloque os itens da lista em linha */
+    margin-right: 10px; /* Adicione espaço entre os itens */
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 80px;
+    font-size: 20px;
+  
+}
+
+/* Estilo para as peças de roupas */
+main {
+    display: flex; /* Usando flexbox para alinhar os itens na horizontal */
+    justify-content: space-around; /* Alinhar os itens uniformemente ao redor */
+    flex-wrap: wrap; /* Quebrar linha quando não houver espaço */
+}
+
+.camisa, .bermuda, .bone {
+    width: 30%; /* Define a largura de cada item */
+    margin-top: 20px; /* Adicione um espaçamento superior para separar do cabeçalho */
+    text-align: center; /* Alinhe o conteúdo no centro */
+}
+
+.camisa img, .bermuda img, .bone img {
+    width: 100%; /* Faça as imagens preencherem as divs */
+}
+
+
+.camisa img, .bermuda img, .bone img {
+    max-width: 200px; /* Defina a largura máxima das imagens */
+    height: auto; /* Mantém a proporção da imagem */
+}
+/* Estilo para a navegação Home */
+.home li a {
+    color: #000; /* Defina a cor do texto como preto */
+    text-decoration: none; /* Remova sublinhado dos links */
+}
+
+/* Estilo para os links visitados */
+.home li a:visited {
+    color: #000; /* Defina a cor do texto para links visitados como preto */
+}
+
+/* Estilo para os links ao passar o mouse */
+.home li a:hover {
+    color: #666; /* Defina a cor do texto para links ao passar o mouse */
+}
+/* Estilo para todos os botões */
+button {
+    padding: 10px 20px; /* Adiciona espaço interno ao redor do texto do botão */
+    font-size: 16px; /* Define o tamanho da fonte */
+    background-color: #000101; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    border-radius: 5px; /* Adiciona cantos arredondados ao botão */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave na cor de fundo */
+}
+
+/* Altera a cor de fundo ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #0655cd;
+}
+
+/* Estilo específico para os botões de compra */
+button.comprar {
+    background-color: #000000; /* Cor de fundo verde */
+}
+
+button.comprar:hover {
+    background-color: #0358a2;
+}
+/* Estilo para os links dentro das divs dos produtos */
+.camisa a, .bermuda a, .bone a {
+    color: #000; /* Define a cor do texto como preto */
+    text-decoration: none; /* Remove a decoração do link */
+}
+
+/* Altera a cor do texto ao passar o mouse sobre os links */
+.camisa a:hover, .bermuda a:hover, .bone a:hover {
+    color: #666; /* Define a cor do texto ao passar o mouse */
+}
+/* Estilo para o cabeçalho */
+.cabecalho {
+    border-bottom: 1px solid #000; /* Adiciona uma borda preta na parte inferior do cabeçalho */
+    padding-bottom: 10px; /* Adiciona um espaçamento entre a borda e o conteúdo */
+}
+
+/* Estilo para a seção principal */
+main {
+    border-top: 1px solid #000; /* Adiciona uma borda preta na parte superior da seção principal */
+    padding-top: 10px; /* Adiciona um espaçamento entre a borda e o conteúdo */
+}
+
+
+
+
